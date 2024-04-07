@@ -1,6 +1,6 @@
 # Electoral Bonds Application
 The Electoral Bonds Application is a Java-based project built using Spring Boot and MySQL. It aims to manage electoral bonds and provide various functionalities related to political parties, denominations, and date-based analysis.
-
+![](https://github.com/yogeshrathee/Electoral-Bonds-Application/blob/fc548220033810a39900a78afd96558d133b0f5a/images/Screenshot%20(47).png)
 ## Project Structure
 The project includes several key components:
 
@@ -124,7 +124,9 @@ The application exposes several REST endpoints for managing political parties an
             "pay_BRANCH_CODE": 800,
             "bond_NUMBER": 10418
         },
+  ![](https://github.com/yogeshrathee/Electoral-Bonds-Application/blob/fc548220033810a39900a78afd96558d133b0f5a/images/Screenshot%20(48).png)
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 - `GET /Electoral-Bond/Political-Party/Fetch The Record by the BOND-NUMBER/{BOND_NUMBER}`: Get a political party record by bond number.
 
@@ -139,6 +141,11 @@ The application exposes several REST endpoints for managing political parties an
           "prefix": "OC",
           "date_OF_ENCASHMENT": "12-Apr-19"
         }
+
+  ![](https://github.com/yogeshrathee/Electoral-Bonds-Application/blob/fc548220033810a39900a78afd96558d133b0f5a/images/Screenshot%20(49).png)
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 - `GET /Electoral-Bond/Political-Party/Fetch The Record by the Party-Name/{NAME_OF_THE_POLITICAL_PARTY}`: Get political party records by party name.
 
 
@@ -177,6 +184,10 @@ The application exposes several REST endpoints for managing political parties an
         "date_OF_ENCASHMENT": "16-Apr-19"
       },
 
+  ![](https://github.com/yogeshrathee/Electoral-Bonds-Application/blob/fc548220033810a39900a78afd96558d133b0f5a/images/Screenshot%20(50).png)
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 - `GET /Electoral-Bond/Political-Party/Fetch The Record by the DATE-OF-ENCASHMENT/{DATE_OF_ENCASHMENT}`: Get political party records by date of encashment.
 
@@ -214,6 +225,10 @@ The application exposes several REST endpoints for managing political parties an
             "prefix": "OC",
             "date_OF_ENCASHMENT": "12-Apr-19"
           },
+
+   ![](https://github.com/yogeshrathee/Electoral-Bonds-Application/blob/fc548220033810a39900a78afd96558d133b0f5a/images/Screenshot%20(51).png)
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
           
 - `GET /Electoral-Bond/Political-Party/denomination/{NAME_OF_THE_POLITICAL_PARTY}`: Get total denomination by party name.
 
@@ -221,7 +236,11 @@ The application exposes several REST endpoints for managing political parties an
         Total Amount: 1315.7154 Crores (Approximately)
         Received By the party Successfully!!!!
 
+  
+   ![](https://github.com/yogeshrathee/Electoral-Bonds-Application/blob/fc548220033810a39900a78afd96558d133b0f5a/images/Screenshot%20(52).png)
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+          
 - `GET /Electoral-Bond/Political-Party/total-denomination`: Get total denomination for all parties.
     
         Total Denomination for All Parties: 10434.843 Crores (Approximately)
@@ -251,7 +270,10 @@ The application exposes several REST endpoints for managing political parties an
         MAHARASHTRAWADI GOMNTAK PARTY: 0.75 Crores (Approximately)
         GOA FORWARD PARTY: 0.35 Crores (Approximately)
 
-  
+  ![](https://github.com/yogeshrathee/Electoral-Bonds-Application/blob/fc548220033810a39900a78afd96558d133b0f5a/images/Screenshot%20(53).png)
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 - `GET /Electoral-Bond/Political-Party/denomination/{DATE}/{PARTY_NAME}`: Get denomination by date and party name.
 
         Total Denomination Encashment by the ( BHARATIYA JANATA PARTY ) !!!
@@ -259,6 +281,10 @@ The application exposes several REST endpoints for managing political parties an
         DATE_OF_ENCASHMENT :: 12-Apr-19
         Party Name :: BHARATIYA JANATA PARTY
         total Denomination In Crores ::  246.3 Crores (Approximately)
+
+  ![](https://github.com/yogeshrathee/Electoral-Bonds-Application/blob/fc548220033810a39900a78afd96558d133b0f5a/images/Screenshot%20(54).png)
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Future Enhancements
 Potential future enhancements for this project include:
