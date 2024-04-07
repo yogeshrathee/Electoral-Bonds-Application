@@ -1,6 +1,4 @@
 # Electoral Bonds Application
-
-## Overview
 The Electoral Bonds Application is a Java-based project built using Spring Boot and MySQL. It aims to manage electoral bonds and provide various functionalities related to political parties, denominations, and date-based analysis.
 
 ## Project Structure
