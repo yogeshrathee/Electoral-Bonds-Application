@@ -1,14 +1,13 @@
 package org.yogesh.electoral.bonds.electoralbondsapplication.Models;
 
 
-import jakarta.persistence.*;
-
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 
 @Entity(name = "PartyDetails")
-@Table(name = "POL_PARTY")
+@Table(name = "Political_Party")
 public class PoliticalParty {
-
-    private int SR_NO;
 
     private String DATE_OF_ENCASHMENT;
 
@@ -30,8 +29,7 @@ public class PoliticalParty {
 
     }
 
-    public PoliticalParty(int SR_NO, String DATE_OF_ENCASHMENT, String NAME_OF_THE_POLITICAL_PARTY, String ACCOUNT_NO_OF_POLITICAL_PARTY, String PREFIX, Long BOND_NUMBER, Long DENOMINATIONS, Long PAY_BRANCH_CODE, Long PAY_TELLER) {
-        this.SR_NO = SR_NO;
+    public PoliticalParty(String DATE_OF_ENCASHMENT, String NAME_OF_THE_POLITICAL_PARTY, String ACCOUNT_NO_OF_POLITICAL_PARTY, String PREFIX, Long BOND_NUMBER, Long DENOMINATIONS, Long PAY_BRANCH_CODE, Long PAY_TELLER) {
         this.DATE_OF_ENCASHMENT = DATE_OF_ENCASHMENT;
         this.NAME_OF_THE_POLITICAL_PARTY = NAME_OF_THE_POLITICAL_PARTY;
         this.ACCOUNT_NO_OF_POLITICAL_PARTY = ACCOUNT_NO_OF_POLITICAL_PARTY;
@@ -40,14 +38,6 @@ public class PoliticalParty {
         this.DENOMINATIONS = DENOMINATIONS;
         this.PAY_BRANCH_CODE = PAY_BRANCH_CODE;
         this.PAY_TELLER = PAY_TELLER;
-    }
-
-    public int getSR_NO() {
-        return SR_NO;
-    }
-
-    public void setSR_NO(int SR_NO) {
-        this.SR_NO = SR_NO;
     }
 
     public String getDATE_OF_ENCASHMENT() {
