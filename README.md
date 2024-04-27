@@ -1,3 +1,6 @@
+# 🌐 Live Demo
+You can access a live demo of the project here :- https://electoralbondsapplication.azurewebsites.net/swagger-ui/index.html#/
+
 # Electoral Bonds Application
 The Electoral Bonds Application is a Java-based project built using Spring Boot and MySQL. It aims to manage electoral bonds and provide various functionalities related to political parties, denominations, and date-based analysis.
 ![](https://github.com/yogeshrathee/Electoral-Bonds-Application/blob/fc548220033810a39900a78afd96558d133b0f5a/images/Screenshot%20(47).png)
